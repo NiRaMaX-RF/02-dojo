@@ -88,7 +88,7 @@ modules:
 
   - import:
       dojo: software-exploitation
-      module: exploit-primitives
+      module: exploitation-primitives
 
   - import:
       dojo: software-exploitation
