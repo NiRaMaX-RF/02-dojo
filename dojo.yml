@@ -1,0 +1,70 @@
+id: 02-dojo
+
+name: "02: Advanced Stuff"
+
+modules:
+  - import:
+      dojo: program-security
+      module: dynamic-allocator-misuse
+
+  - id: program-exploitation
+    name: Program Exploitation
+    description: ""
+    resources:
+      - name: "Exploitation Scenarios: Introduction"
+        type: lecture
+        video: A5CnZGst5u4
+        playlist: PL-ymxv0nOtqp4FnPpSp-o-R196pYwF3QI
+        slides: 1__cUrVerXgj8xhUbDoeT59vavO_BI1ah3F8a4yNTE40
+      - name: "Exploitation Scenarios: Hijacking to Shellcode"
+        type: lecture
+        video: lsY2g09Hjr0
+        playlist: PL-ymxv0nOtqp4FnPpSp-o-R196pYwF3QI
+        slides: 15Ad42MRjETONK3hPp4cOhYWMqHL8ynoxJtXiawR4ro8
+      - name: "Exploitation Scenarios: Side Effects"
+        type: lecture
+        video: AwhN_7YNVLo
+        playlist: PL-ymxv0nOtqp4FnPpSp-o-R196pYwF3QI
+        slides: 16fwwUjDuGtIRv1p6sGtJZGTEkEXBRCD1Eb4YIEcIufo
+      - name: "Exploitation Scenarios: JIT Spray"
+        type: lecture
+        video: RHPxiRBapA4
+        playlist: PL-ymxv0nOtqp4FnPpSp-o-R196pYwF3QI
+        slides: 1eO49S6JFknXGD5VPv2OeoAuBRp-Ab4HqaQ_mxZXmn14
+    
+    challenges:
+    - import:
+        dojo: program-security
+        module: program-exploitation
+        challenge: level-3-0
+    - import:
+        dojo: program-security
+        module: program-exploitation
+        challenge: level-3-1
+        
+    - import:
+        dojo: program-security
+        module: program-exploitation
+        challenge: level-4-0
+    - import:
+        dojo: program-security
+        module: program-exploitation
+        challenge: level-4-1
+        
+    - import:
+        dojo: program-security
+        module: program-exploitation
+        challenge: level-5-0
+    - import:
+        dojo: program-security
+        module: program-exploitation
+        challenge: level-5-1
+        
+    - import:
+        dojo: program-security
+        module: program-exploitation
+        challenge: level-6-0
+    - import:
+        dojo: program-security
+        module: program-exploitation
+        challenge: level-6-1
