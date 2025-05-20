@@ -69,33 +69,32 @@ modules:
         module: program-exploitation
         challenge: level-6-1
 
-    - import:
-        dojo: system-security
-        module: introduction
-      name: "System Security Introduction"
+  - import:
+      dojo: system-security
+      module: introduction
+    name: "System Security Introduction"
 
-    - import:
-        dojo: system-security
-        module: sandboxing
+  - import:
+      dojo: system-security
+      module: sandboxing
 
-    - import:
-        dojo: system-security
-        module: race-conditions
+  - import:
+      dojo: system-security
+      module: race-conditions
 
-    - import:
-        dojo: software-exploitation
-        module: file-struct-exploits
-    
-    - import:
-        dojo: software-exploitation
-        module: exploit-primitives
-    
-    - import:
-        dojo: software-exploitation
-        module: dynamic-allocator-exploitation
-    
-    - import:
-        dojo: software-exploitation
-        module: format-string-exploits
-      name: "Optional: Format String Exploits"
-    
+  - import:
+      dojo: software-exploitation
+      module: file-struct-exploits
+
+  - import:
+      dojo: software-exploitation
+      module: exploit-primitives
+
+  - import:
+      dojo: software-exploitation
+      module: dynamic-allocator-exploitation
+
+  - import:
+      dojo: software-exploitation
+      module: format-string-exploits
+    name: "Optional: Format String Exploits"
