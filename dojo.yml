@@ -80,3 +80,8 @@ modules:
       dojo: software-exploitation
       module: format-string-exploits
     name: "Optional: Format String Exploits"
+
+  - import:
+      dojo: system-security
+      module: speculative-execution
+    name: "Optional: Microarchitecture Exploitation"
