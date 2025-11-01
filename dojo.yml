@@ -82,6 +82,11 @@ modules:
     name: "Optional: Format String Exploits"
 
   - import:
+      dojo: program-security
+      module: reverse-engineering
+    name: "Optional: Reverse Engineering"
+
+  - import:
       dojo: system-security
       module: speculative-execution
     name: "Optional: Microarchitecture Exploitation"
